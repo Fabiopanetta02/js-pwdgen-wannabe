@@ -32,5 +32,5 @@ const passwordAddiction = firstName + secondName + favouriteColor + 21;
 console.log(passwordAddiction);
 
 //6- Faccio comparire la password
-resultPassword.innerText = `La tua password è: ${passwordAddiction}`;
+resultPassword.innerHTML = `La tua password è: <strong>${passwordAddiction}</strong>`;
 console.log(password);
